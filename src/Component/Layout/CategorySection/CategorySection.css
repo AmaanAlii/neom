@@ -1,0 +1,34 @@
+.categorysection{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.categorysection_head{
+    width: 90%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    margin-bottom: 20px;
+}
+.categorysection_cards{
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+@media only screen and (max-width:1497px) and (min-width:1391px){
+    .categorysection_cards{
+        width: 95%;
+    }
+}
+@media only screen and (max-width:1390px) {
+    .categorysection_cards{
+        width: 98%;
+    }
+}

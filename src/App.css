@@ -1,0 +1,13 @@
+.App {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+}
+h3{
+  font-size: 35px;
+  font-weight: 400;
+  font-family: 'unna';
+}

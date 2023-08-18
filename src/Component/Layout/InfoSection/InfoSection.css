@@ -1,0 +1,42 @@
+.infosection {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 100%;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.infosectionCard {
+  flex: 0.25;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 25px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+.infosectionCard:hover{
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+}
+.infosectionCard_img > img {
+  height: 30px;
+  object-fit: contain;
+}
+.infosectionCard_details {
+  margin-top: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.infosectionCard_details_heading {
+  font-size: 22px;
+  font-weight: 500;
+  margin-bottom: 5px;
+}
+.infosectionCard_details_para {
+  font-size: 18px;
+  font-weight: 500;
+
+}

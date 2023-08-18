@@ -1,0 +1,5 @@
+.herobannercard_img{
+    height: 265px;
+    object-fit: contain;
+    filter: drop-shadow(2px 4px 6px black);
+}

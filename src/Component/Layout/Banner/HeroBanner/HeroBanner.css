@@ -1,0 +1,58 @@
+.herobanner {
+  width: 100%;
+  height: 90vh;
+  background: url("../../../Assest/black-gray-digital-wallpaper-art-abstract-luxury-premium-background-generative-ai 1.png"),
+    lightgray 50% / cover no-repeat;
+  background-color: #ffb842;
+  mix-blend-mode: difference;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.herobanner_bottom {
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+.herobanner_heading {
+  position: absolute;
+  top: 7%;
+
+  line-height: 50px;
+  color: #fff;
+  font-size: 45px;
+  font-weight: 400;
+  font-family: "Spicy Rice";
+}
+.herobanner_heading>span{
+    color: #292929;
+}
+.herobanner_cards{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 89%;
+    position: absolute;
+    bottom: 7%;
+}
+.herobanner>span{
+    position: absolute;
+    top: 25%;
+    width: 350px;
+    border: 1px solid lightgrey;
+    background-color: #fff;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.herobanner>span>input{
+    width: 90%;
+    height: 45px;
+    border: transparent;
+    outline: transparent;
+    padding-left: 10px;
+}

@@ -1,0 +1,153 @@
+.Cart-Price-Section {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    width: 35%;
+  }
+  
+  .Cart-Price-Dicount {
+    width: 100%;
+  }
+  
+  .Cart-Price-Details-Section {
+    border: 1px solid #b0b0b0;
+    border-radius: 5px;
+  }
+  
+  .Cart-Discount-Heading {
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+    color: #000;
+    font-family: Rubik;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 20px;
+  }
+  
+  .Cart-Discount-Input-Section {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  .Cart-Discount-Input {
+    display: flex;
+    flex: 3;
+  }
+  
+  .Cart-Discount-Input input {
+    width: 98%;
+    height: 45px;
+    flex-shrink: 0;
+    border-radius: 4px;
+    border: none;
+    background: #f9f9f9;
+    margin-right: 5px;
+  }
+  
+  .Cart-Discount-Apply-Button {
+    flex: 0.5;
+  }
+  
+  .Cart-Discount-Apply-Button button {
+    width: 100%;
+    height: 45px;
+    flex-shrink: 0;
+    border-radius: 4px;
+    border: 1px solid #dcdcdc;
+    background: #f9f9f9;
+    color: #000;
+    font-family: Rubik;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    cursor: pointer;
+  }
+  
+  .Cart-Price-Details-Section {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 30vh;
+    padding: 25px;
+  }
+  
+  .Price-Heading {
+    width: 100%;
+    display: flex;
+    color: #000;
+    font-family: Rubik;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+  
+  .Cart-Price-Pricing {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 60%;
+  }
+  
+  .Cart-Price-Totals {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    color: #6f6f6f;
+    font-family: Rubik;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+  
+  .Cart-Price-GrandTotal {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 30%;
+    color: #000;
+    font-family: Rubik;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    border: none;
+    border-top: 1px solid #dfdfdf;
+  }
+  
+  .Cart-Price-GrandTotal h6 {
+    font-size: 18px;
+  }
+  
+  .Cart-Checkout-Button button {
+    color: var(--color-bg, #fff);
+    font-family: Rubik;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    display: inline-flex;
+    padding: 10px 69px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: var(--br, 6px);
+    background: var(--black-950, #000);
+    margin-top: 25px;
+    cursor: pointer;
+  }

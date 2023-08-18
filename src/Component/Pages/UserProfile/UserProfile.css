@@ -1,0 +1,159 @@
+.userprofile {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  width: 100%;
+  margin-top: 30px;
+}
+.userprofile_left {
+  flex: 0.2;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+  border-right: 1px solid lightgrey;
+  height: 70vh;
+}
+.userprofile_left > .userprofile_left_top > span,
+.userprofile_left_bottom > span {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  cursor: pointer;
+  padding: 10px;
+  border-radius: 5px;
+}
+.userprofile_left > .userprofile_left_top > span:hover,
+.userprofile_left_bottom > span:hover {
+  background-color: #F0F6FF;
+  transition: all 0.3s ease;
+}
+.userprofile_left > .userprofile_left_top > span > p,
+.userprofile_left_bottom > span > p {
+  font-size: 22px;
+  font-weight: 500;
+  margin-left: 20px;
+}
+.userprofile_right {
+  flex: 0.7;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+  padding-left: 50px;
+}
+
+.userprofile_right_edit {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+  width: 100%;
+}
+.userprofile_right_edit_heading {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 80%;
+}
+.userprofile_right_edit_details {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+  margin-top: 30px;
+  width: 100%;
+}
+.userprofile_right_edit_details > form {
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+  width: 100%;
+}
+.userprofile_right_edit_details > form > div {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+  width: 80%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.userprofile_right_edit_details > form > div > span {
+  width: 100%;
+  margin-top: 5px;
+  border: 1px solid lightgrey;
+}
+.userprofile_right_edit_details > form > div >p{
+    font-size: 22px;
+}
+.userprofile_right_edit_details > form > div > span>input{
+    width: 100%;
+    height: 45px;
+    padding-left: 10px;
+    border: transparent;
+    outline: transparent;
+}
+.userprofile_right_edit_details_button{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 100%;
+}
+.userprofile_right_edit_details_button>button{
+    background-color: #470A08;
+    color: #fff;
+    padding: 8px 12px;
+    font-size: 18px;
+    border: transparent;
+    outline: transparent;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.userprofile_right_order{
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+.userprofile_right_order_heading{
+    margin-bottom: 20px;
+}
+.userprofile_right_order_card{
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    gap: 20px;
+    width: 100%;
+}
+.userprofile_right_address{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.userprofile_right_address_heading{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-bottom: 20px;
+}
+.userprofile_right_address_card{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+}
+.useractive{
+  background-color: #F0F6FF;
+}

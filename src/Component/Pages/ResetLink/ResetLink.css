@@ -1,0 +1,24 @@
+.Reset-Link-Heading {
+  font-family: Rubik;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 3.675px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-bottom: 50px;
+}
+
+.Reset-Link-Text {
+  width: 671px;
+  font-family: "Rubik";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 1.26px;
+  padding-bottom: 20px;
+  text-align: left;
+  margin-bottom: 100px;
+}

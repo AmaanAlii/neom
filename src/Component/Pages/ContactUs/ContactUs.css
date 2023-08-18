@@ -1,0 +1,218 @@
+.ContactUs-Section {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.ContactUs-SubSection {
+  width: 90%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 200px;
+}
+
+.ContactUs-Cards {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.ContactUs-Cards-Card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 234px;
+  height: 179px;
+  border: 1px solid #888888;
+  border-radius: 5px;
+  margin-left: 60px;
+  margin-bottom: 100px;
+}
+
+.ContactUs-Card-Logo {
+  margin-bottom: 10px;
+}
+
+.ContactUs-ContactForm-Section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+  margin-top: 100px;
+}
+.ContactUs-ContactForm-Text {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  width: 30%;
+}
+
+.ContactUs-Card-Heading {
+  font-family: Cabin;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-transform: capitalize;
+  margin-bottom: 10px;
+}
+
+.ContactUs-Card-Text {
+  color: var(--black-700, #4f4f4f);
+  font-family: Cabin;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: capitalize;
+}
+
+.ContactUs-Image > img {
+  width: 1240px;
+}
+
+.ContactUs-ContactForm-Text-Heading h1 {
+  color: var(--black-900, #3d3d3d);
+  font-family: Poppins;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.ContactUs-ContactForm-SubText span {
+  color: #c9c9c9;
+  font-family: Poppins;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.ContactUs-Section input {
+  width: 100%;
+  height: 50px;
+  padding: 10px;
+  font-size: 15px;
+  border: none;
+  border-bottom: 1px solid black;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 3px;
+  text-align: justify;
+}
+
+.ContactUs-ContactForm-Input {
+  margin-bottom: 24px;
+}
+
+.ContactUs-Section textarea {
+  width: 100%;
+  height: 50px;
+  padding: 10px;
+  font-size: 15px;
+  border: none;
+  border-bottom: 1px solid black;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 3px;
+  margin-bottom: 24px;
+  text-align: justify;
+}
+
+.ContactUs-Form-Errors {
+  color: #ff0000;
+  font-family: Poppins;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.ContactUs-ContactForm-Input-Group {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.ContactUs-ContactForm-Input-Group .ContactUs-ContactForm-Input {
+  width: 45%;
+}
+
+.ContactUs-ContactForm-Inputs {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.ContactUs-ContactForm {
+  width: 60%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.ContactUs-ContactForm form {
+  width: 100%;
+}
+
+.ContactUs-ContactForm-Input {
+  margin-top: 20px;
+  position: relative;
+}
+
+.ContactUs-ContactForm-Inputs-First-Input {
+  width: 100%;
+}
+
+.ContactUs-ContactForm-Input-Label {
+  position: absolute;
+  background-color: white;
+  padding: 0 4px;
+  top: -5px;
+  left: 8px;
+  color: #8d8d8d;
+  font-family: Poppins;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px;
+}
+
+.ContactUs-ContactForm-Button-Section {
+  width: 90%;
+  display: flex;
+  flex-direction: row-reverse;
+  position: relative;
+  margin-top: 20px;
+  margin-left: 70px;
+}
+
+.ContactUs-SubSection button {
+  display: inline-flex;
+  position: relative;
+  cursor: pointer;
+  padding: 15px 48px;
+  align-items: flex-start;
+  margin-right: 10px;
+  gap: 10px;
+  color: #ffffff;
+  border-radius: 5px;
+  background: #000;
+  box-shadow: 0px 0px 14px 0px rgba(0, 0, 0, 0.12);
+}
+
+.ContactUs-ContactForm-ArrowImage img {
+  display: inline;
+  position: absolute;
+  right: 150px;
+}

@@ -1,0 +1,97 @@
+.Address-Confirmation-Section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.Address-Subsection {
+  display: flex;
+  width: 90%;
+  justify-content: space-between;
+  margin-top: 50px;
+  margin-bottom: 100px;
+}
+
+.Address-Input-Section {
+  display: flex;
+  width: 50%;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.Address-Input-Heading {
+  color: #000;
+  font-family: Rubik;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin-bottom: 50px;
+}
+
+.Address-Input-Form {
+  display: flex;
+  width: 100%;
+}
+
+.Form-Container {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+}
+
+.Form-SubContainer {
+  display: flex;
+  width: 100%;
+}
+
+.Form-Field {
+  display: flex;
+  justify-content: center;
+  flex: 1;
+  flex-direction: column;
+  margin-right: 10px;
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+.Form-Field > label {
+  color: #000;
+  font-family: Rubik;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-bottom: 10px;
+}
+
+.Form-Field > input {
+  border-radius: 4px;
+  border: 1px solid #c0c0c0;
+  background: #fff;
+  height: 32px;
+  flex-shrink: 0;
+}
+
+.Address-Confirmation-Section .Form-Container button {
+  width: 113px;
+  height: 40px;
+  flex-shrink: 0;
+  border-radius: 4px;
+  border: 1px solid #000;
+  background: #fff;
+  color: #000;
+  font-family: Rubik;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: capitalize;
+  margin-top: 50px;
+}
+
+.Form-Container span {
+  color: rgb(255, 0, 0);
+}

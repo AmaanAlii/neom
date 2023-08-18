@@ -1,0 +1,31 @@
+.Reset-Confirmation-Text-Section {
+  width: 550px;
+  font-family: "Rubik";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 1.26px;
+  padding-bottom: 20px;
+  text-align: left;
+  margin-bottom: 25px;
+}
+
+.Reset-Confirmation-BackToLogin-Button {
+  margin-top: 50px;
+  padding: 8px 22px;
+  width: 462px;
+  height: 42px;
+  border-radius: 5px;
+  border-color: #0000003b;
+  font-size: 15px;
+  margin-bottom: 74px;
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: Roboto;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 26px; 
+  letter-spacing: 0.46px;
+  text-transform: uppercase;
+}

@@ -1,0 +1,53 @@
+.product_breadcrums{
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.product_breadcrums_left{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+}
+.product_breadcrums_left>a{
+    margin-right: 10px;
+    text-decoration: none;
+}
+.product_breadcrums_left>p{
+    margin-left: 10px;
+}
+.product_breadcrums_right{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.productpage{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    width: 100%;
+}
+.productpage_left{
+    flex: 0.2;
+    padding-left: 10px;
+}
+.productpage_right{
+    flex: 0.75;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    gap: 30px;
+
+}
+.product_pagination{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}

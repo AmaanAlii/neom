@@ -1,0 +1,18 @@
+.qunatity{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #F3F3F3;
+}
+.qunatity_decrease,.qunatity_increase{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2px;
+}
+.qunatity_counter{
+    font-size: 18px;
+    width: 40px;
+    background-color: #fff;
+    color: #6E798C;
+}

@@ -1,0 +1,172 @@
+.AboutUs-Section {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.AboutUs-SubSection {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 90%;
+}
+
+.AboutUs-Intro-Section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  padding-left: 30%;
+  margin-bottom: 100px;
+}
+
+.AboutUs-Intro-Text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 20px 20px 30px;
+  position: absolute;
+  width: 35%;
+  height: 350px;
+  right: 60%;
+  top: 15%;
+  border-radius: 5px;
+  box-shadow: -5px -5px 10px rgba(107, 107, 107, 0.2);
+  background-color: #ffffff;
+  color: #000;
+  text-align: justify;
+  font-family: Cabin;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 221.5%; /* 48.73px */
+  letter-spacing: 0.33px;
+}
+
+.AboutUs-Intro-BackDrop {
+  background-color: #000000;
+  left: 500px;
+  width: 800px;
+  height: 500px;
+  border-radius: 5px;
+}
+
+.AboutUs-Para {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  text-align: left;
+  text-align: justify;
+  color: #000;
+  font-family: Cabin;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 221.5%;
+  letter-spacing: 0.27px;
+  margin-bottom: 100px;
+}
+
+.AboutUs-Card {
+  background-color: #d9d9d9;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 100px;
+}
+
+.AboutUs-Card-Img {
+  margin-top: 20px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.AboutUs-Card-Img img {
+  width: 70%;
+  height: 70%;
+  margin-right: 10px;
+}
+
+.AboutUs-Card-Text {
+  width: 40%;
+  color: #000;
+  text-align: left;
+  text-align: justify;
+  font-family: Cabin;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 221.5%; /* 39.87px */
+  letter-spacing: 0.27px;
+}
+
+.AboutUs-Details-Card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 100px;
+}
+
+.AboutUs-Details-Card-Left {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 50%;
+}
+
+.AboutUs-Details-Card-Heading {
+  width: 100%;
+  text-align: left;
+  color: #000;
+  font-family: Cabin;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 150%; /* 67.5px */
+  letter-spacing: 0.675px;
+  margin-bottom: 50px;
+}
+
+.AboutUs-Details-Card-Description {
+  color: #000;
+  text-align: justify;
+  text-align: left;
+  font-family: Cabin;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 221.5%; /* 39.87px */
+  letter-spacing: 0.27px;
+}
+
+.AboutUs-Details-Card-Right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+}
+
+.AboutUs-Details-Card-Right img {
+  width: 80%;
+  height: 80%;
+}
+
+.AboutUs-Details-Card-2 {
+  display: flex;
+  justify-content: center;
+  flex-direction: row-reverse;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 100px;
+}
+
+.AboutUs-Details-Card-2 .AboutUs-Details-Card-Heading {
+  text-align: right;
+}
